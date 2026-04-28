@@ -1,18 +1,18 @@
 cask "ato" do
-  version "1.1.0"
+  version "1.2.0"
 
   on_arm do
-    sha256 "3209a1bdcd751baf8acb6005efbd193195aa7bb5900f99756b4fdea6a267234e"
+    sha256 "7fbf0a44491ecf18ad63b4cf35c0a8cd639d7dfb1d1156dad486152ab8e24892"
     url "https://github.com/WillNigri/Agentic-Tool-Optimization/releases/download/v#{version}/ATO_#{version}_aarch64.dmg"
   end
 
   on_intel do
-    sha256 "aa537d5906d2d640c35dcdd891dd548e868ab4c06d5a6ee704d71cc3f5347a20"
+    sha256 "c225f2045af252173b068a2f17bb6124636326e4f32d35b1e9d6ab34fca174b9"
     url "https://github.com/WillNigri/Agentic-Tool-Optimization/releases/download/v#{version}/ATO_#{version}_x64.dmg"
   end
 
   name "ATO"
-  desc "Multi-runtime control panel for AI coding tools — 6 runtimes, Ollama, projects dashboard"
+  desc "Agent Command Center — visual workspace for AI coding tools with 6 runtimes + Ollama"
   homepage "https://agentictool.ai"
 
   app "ATO.app"
