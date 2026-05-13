@@ -1,18 +1,18 @@
 cask "ato" do
-  version "2.3.51"
+  version "2.4.6"
 
   on_arm do
-    sha256 "c3b6e8de8dd8a40ee5800b9798435a89b6c45826d0e03cf545013369e008c76b"
-    url "https://github.com/WillNigri/Agentic-Tool-Optimization/releases/download/v#{version}/ATO_#{version}_aarch64.dmg"
+    sha256 "6109087cee6a5c348c701d9e4819332e1b62f997860891d5c81363ce8a33fe06"
+    url "https://github.com/WillNigri/Agentic-Tool-Optimization/releases/download/v2.4.6/ATO_#{version}_aarch64.dmg"
   end
 
   on_intel do
-    sha256 "8b8a8b3c7441a938cdb412fe67ce42fc257dce471b89654c297aff52dbdb0921"
-    url "https://github.com/WillNigri/Agentic-Tool-Optimization/releases/download/v#{version}/ATO_#{version}_x64.dmg"
+    sha256 "25d619860e531839b5ec78ce30c02e3e6bdfb8e154c7bbe23139eae2833a7bd0"
+    url "https://github.com/WillNigri/Agentic-Tool-Optimization/releases/download/v2.4.6/ATO_#{version}_x64.dmg"
   end
 
   name "ATO"
-  desc "Local war room for humans and LLMs — multi-LLM decision sessions with audit trail"
+  desc "Control panel for AI coding tools — manage skills, agents, and LLM configurations"
   homepage "https://agentictool.ai"
 
   app "ATO.app"
