@@ -1,14 +1,14 @@
 cask "ato" do
-  version "2.16.0-alpha.1"
+  version "2.16.0-alpha.2"
 
   on_arm do
-    sha256 "99d4f45c6f3ebab86ba4df3bdd7fac3b7d4139949729cb14096b4e4bb12006d8"
-    url "https://github.com/WillNigri/Agentic-Tool-Optimization/releases/download/v2.16.0-alpha.1/ATO_#{version}_aarch64.dmg"
+    sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+    url "https://github.com/WillNigri/Agentic-Tool-Optimization/releases/download/v2.16.0-alpha.2/ATO_#{version}_aarch64.dmg"
   end
 
   on_intel do
-    sha256 "600b0f8c0bd79f2900a1b9f06829dbac71ebe5d517969ac319d163f48f6574a6"
-    url "https://github.com/WillNigri/Agentic-Tool-Optimization/releases/download/v2.16.0-alpha.1/ATO_#{version}_x64.dmg"
+    sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+    url "https://github.com/WillNigri/Agentic-Tool-Optimization/releases/download/v2.16.0-alpha.2/ATO_#{version}_x64.dmg"
   end
 
   name "ATO"
